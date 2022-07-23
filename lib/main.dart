@@ -6,9 +6,8 @@ void main() => runApp(MaterialApp(
     debugShowCheckedModeBanner: false,
     theme: ThemeData(primarySwatch: Colors.amber),
     home: Scaffold(
-      appBar: AppBar(
-        title: Text('Анкета'),
-        centerTitle: true,
-      ),
+    appBar: AppBar(
+    title: Text('Анкета'),
+    centerTitle: true),
       body: SingleChildScrollView(child: MyForm()),
     )));
